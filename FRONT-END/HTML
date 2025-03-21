@@ -1,0 +1,76 @@
+¿Qué es HTML?
+
+Es un lenguaje de marcado estándar que permite a los desarrolladores crear y definir la estructura de una página web mediante el uso de “etiquetas” (que consisten en el nombre del elemento con un “`<`" y “`>`” a cada lado), que indican como se debe mostrar un texto, una imagen, un enlace o algún otro elemento multimedia.
+
+HTML se complementa con otros lenguajes como CSS (para el diseño) y JavaScript (para la interactividad).
+
+Estructura básica - HTML
+
+Al hablar de la estructura de una página web HTML podemos distinguir dos partes principales:
+
+- La cabecera `<head>`: Donde está información importante de la página pero que el usuario no ve directamente (excepto el título y el icono).
+- El cuerpo `<body>`: Donde está el contenido visible de la página.
+
+![25c55ecfbfa60e7dbca16903483c8f3a.jpg](https://prod-files-secure.s3.us-west-2.amazonaws.com/47109f7b-357b-4a5d-99bb-b53cd5f2e41e/649c3978-9319-4a36-850f-9ee81e743bb6/25c55ecfbfa60e7dbca16903483c8f3a.jpg)
+
+Cualquier página web debe contener al menos está estructura para desarrollarse correctamente. Cada etiqueta tiene su significado en cada parte del código:
+
+`<!DOCTYPE>`
+
+Define cuál versión de HTML se usó para escribir el documento.
+
+`<html>`
+
+Define el inicio del documento HTML, le indica al navegador que lo que viene a continuación debe ser interpretado como código HTML.
+
+`<head>`
+
+Define la sección de encabezado de la página, donde se incluyen elementos como el título de la página, metaetiquetas, scripts, entre otros.
+
+`<meta>`
+
+Define metadatos, es decir, información sobre datos en un documento HTML. Se utiliza para especificar el conjunto de caracteres, el autor del documento, la configuración de la ventana gráfica, etc.
+
+`<title>`
+
+Define el título de la página web que aparece en la pestaña del navegador. 
+
+`<link>`
+
+Define el favicon de la página (icono de la pestaña del navegador), contiene atributos y relaciona el documento HTML con recursos externos. 
+
+`<script>`
+
+Define las instrucciones de script o apunta a un archivo de script externo a través de atributo “src”.
+
+`<body>`
+
+Define el contenido principal o cuerpo de la página web. Esta es la parte del documento HTML que se muestra en el navegador, dentro de esta etiqueta pueden definirse propiedades comunes a toda la página. 
+
+`<header>`
+
+Define la parte superior o cabecera de una web. En ella, mayormente, se encuentra el logotipo y nombre de la página web, así como el menú. 
+
+`<nav>`
+
+Define elementos de navegación como enlaces y menús. Usada principalmente para el menú principal de la página, esta etiqueta facilita la organización y accesibilidad de la navegación. Su aplicación es crucial en páginas con múltiples secciones, ya que ayuda a los usuarios a moverse con facilidad.
+
+`<main>`
+
+Define el contenido principal de la página que contiene la parte más relevante o única del documento. Este suele incluir artículos, secciones y cualquier elemento específico que refleja el propósito de la página web. 
+
+`<aside>`
+
+Define el contenido secundario o lateral relacionado con el contenido principal de una página web. Es comúnmente utilizada para incluir contenido adicional, como barras laterales, widgets, menús de navegación, biografías de autor, etc.
+
+`<section>`
+
+Define el contenido lógico en secciones separadas dentro de un documento. Es una forma semántica de marcar contenido en un documento HTML y puede ser útil para mejorar la accesibilidad y la usabilidad del contenido, así como para mejorar la estructuración y la organización del contenido.
+
+`<article>`
+
+Define la información muy relevante de una página o documento concreto. Algunos ejemplos podrían ser un mensaje en un foro, un artículo de una revista o un periódico, una entrada de blog, el comentario de un usuario, un widget o gadget interactivo, o cualquier otro elemento de contenido independiente.
+
+`<footer>`
+
+Define la sección de la página web ubicada en la parte inferior del documento, en la que se incluye una serie de elementos que pueden resultar de interés para el usuario que navega por ella, como enlaces a las categorías principales, información de contacto, redes sociales o enlaces a textos legales.
